@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Puglisi Lab</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/main.css" />
   </head>
@@ -11,7 +12,11 @@
     <div id="page-wrapper">
 
       <header id="header">
-        <h1 id="logo"><a href="index.html"><span>Puglisi Laboratory</span></a></h1>
+        <h1 id="logo"><a href="index.html">
+          <div id="logo-img">
+          <img src="images/Logo_of_Stanford_University.png" height="50" width="50"></div>
+          <div id="puglisi">Puglisi</div>
+          <div id="laboratory">Laboratory</div></a></h1>
         <nav id="nav">
           <ul id="nav-title">Research</ul>
           <ul id="nav-title">People</ul>
@@ -21,14 +26,44 @@
         </nav>
       </header>
       <div id="background-photo">
-        <div id="welcome">Welcome to the</div></br>
-        <div id="welcome">Puglisi Lab</div>
+        <div class="welcome 1">Welcome to the</div></br>
+        <div class="welcome 2"> Puglisi Laboratory</div>
+        <!-- <h3 id="history">Let's make history</h3> -->
       </div>
       <div id="info-section">
         <div id="left-side">
-          <div id="question">"What is the role of RNA in cellular processes and disease?"</div>
+          <div id="question">
+            "What is the role of RNA in cellular processes and disease?"</div>
+            <div id="rna-image"><img src="images/TRNA.svg" height="250" width="auto"></div>
         </div>
-        <div id="right-side"></div>
+        <div id="right-side">
+          <div id="right-contents">
+          <h1 id="overview">Puglisi Laboratory Overview</h1>
+          <p id="summary">Dr. Puglisi's group investigates the role of RNA in cellular processes and disease.
+             Their goal is to understand RNA function in terms of molecular structure and dynamics
+             using a variety of biophysical and biological tools. They use nuclear magnetic resonance
+             (NMR) spectroscopy to determine structures of biological molecules, and integrate structural
+             understanding into further mechanistic and functional studies. They investigate dynamics
+             using single-molecule approaches. Their goal is a unified picture of structure, dynamics
+             and function. They are currently focused on the mechanism and regulation of translation,
+             and the role of RNA in viral infections. A long-term goal is to target processes involving
+             RNA with novel therapeutic strategies.</p>
+          <div id="research-focus">
+             <p id="focus">Our research questions focus on:</p>
+             <ul id="research-list">
+               <li><a href="">HIV Reverse Transcription Initiation</a></li>
+               <li><a href="">Single Molecule Fluoresence</a></li>
+               <li><a href="">HCV Virus Iris</a></li>
+               <li><a href="">Initiation, elongation, and termination of translation</a></li>
+             </ul>
+             </div>
+
+           </div>
+        </div>
+      </div>
+      <div id="designed-by">
+        Designed: 
+        <a href="https://lmadigan.github.io/portfolio/">Lauren Madigan</a>
       </div>
     </div>
   </body>

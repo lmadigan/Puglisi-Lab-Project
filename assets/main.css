@@ -10,10 +10,11 @@ colors:
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: rgb(107, 107, 107) solid 1px;
 }
 
 #logo{
-  margin-left: 70px;
+  margin-left: 30px;
   color: white;
   font-size: 30px;
 }
@@ -22,9 +23,32 @@ colors:
   color: white;
 }
 
+#logo a {
+  display: flex;
+}
+
+#logo-img {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+
+#puglisi{
+  color: #B90504;
+  font-weight: 600;
+  display: inline-block;
+}
+
+#laboratory{
+  color: black;
+  /*font-weight: 400;*/
+  display: inline-block;
+  /*font-stretch: condensed;*/
+}
+
 
 #nav {
-  margin-right: 70px;
+  margin-right: 30px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -34,15 +58,16 @@ colors:
   font-size: 23px;
   padding-left: 20px;
   color: #161136;
+  /*#B90504;*/
+  /*#161136;*/
 }
 
 #nav-title:hover{
   cursor: pointer;
-  color: #F9D73E;
+  color: #B90504;
 }
 
 #background-photo{
-  margin-top: -70px;
   background-image: url('../images/Stanford_Campus.jpg');
   background-color: 0.8;
   background-repeat: no-repeat;
@@ -56,14 +81,27 @@ colors:
   height: 300px;
 }
 
-#welcome{
-  color: white;
-  font-size: 70px;
-  font-weight:100;
+.welcome{
+  color: white ;
+  font-size: 65px;
+  /*font-weight: bold;*/
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  font-style: normal
 }
 
-#welcome:first-child{
+.welcome.1{
   margin-top: 20px;
+}
+
+#history {
+  color: white;
+  font-weight: 300;
+  font-size: 23px;
+  margin-top: -20px;
 }
 
 #info-section{
@@ -74,13 +112,110 @@ colors:
 }
 
 #left-side {
-  border: black 1px solid;
   width: 41.6667%;
   height: 500px;
 }
 
 #right-side {
-  border: blue 1px solid;
   width: 58.33333%;
   height: 500px;
+  color: #333333;
 }
+
+#question {
+  margin: 38px;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(107, 107, 107);
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-style: normal
+}
+
+#rna-image {
+  display: flex;
+  justify-content: center;
+}
+
+#rna-image img {
+  height: 250px;
+  width: auto;
+  display: inline-block;
+}
+
+#right-side h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*line-height: 1.2em;*/
+}
+
+#right-contents{
+  margin-top: 50px;
+  margin-right: 50px;
+  /*margin: 20px;*/
+}
+
+#overview{
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  font-size: 25px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+#summary {
+  color: #333333;
+  line-height: 1.2em;
+  text-transform: none;
+  /*letter-spacing: 1px;*/
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: .3px;
+  font-style: normal;
+}
+
+#research-focus{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#focus {
+  color: #333333;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0.3px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+#research-list{
+  list-style-type: disc;
+  line-height: 1.6em;
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+
+#research-list li{
+  margin-left: 30px;
+  color: #333333;
+  line-height: 1.6em;
+  letter-spacing: .3px;
+}
+
+#research-list li a{
+    color: #333333;
+}
+
+#designed-by{
+  height: 70px;
+  width: 100%;
+  background-color: #161136;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/*yellow: #ff9100*/
