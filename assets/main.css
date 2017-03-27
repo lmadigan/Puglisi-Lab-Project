@@ -5,11 +5,13 @@
   width: 100%;
 }
 
-#header{
+.header{
+  /*position: fixed;*/
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   border-bottom: rgb(107, 107, 107) solid 1px;
 }
 
@@ -262,5 +264,16 @@
 
 #icon-container a h1{
   color: #161136;
+}
+
+.fix-search {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  margin:0;
+  width: 100%;
+  background-color: #dedede;
+  border-bottom: white;
 }
 /*yellow: #ff9100*/

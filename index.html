@@ -6,13 +6,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <script src="https://use.fontawesome.com/7ccc97b483.js"></script>
+    <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/main.css" />
   </head>
   <body>
     <div id="page-wrapper">
 
-      <header id="header">
+      <header class="header">
         <h1 id="logo"><a href="index.html">
           <div id="logo-img">
           <img src="images/Logo_of_Stanford_University.png" height="50" width="50"></div>
@@ -92,5 +93,19 @@
 					<a href="https://www.linkedin.com/in/laurenmadigan/" class="fa fa-linkedin" target="_blank"></a>
       </div>
     </div>
+
+    <script>
+      var el = $('.header');
+        var $document = $(document);
+        $document.scroll(function() {
+          if ($document.scrollTop() >= 230) {
+            // user scrolled 50 pixels or more;
+            // do stuff
+            el.addClass('fix-search');
+          } else {
+            el.removeClass("fix-search");
+          }
+        });
+			</script>
   </body>
 </html>
