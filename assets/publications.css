@@ -1,4 +1,53 @@
 #publications-wrapper{
   display: flex;
   flex-direction: column;
+  margin: 40px;
+}
+
+
+#more{
+  display: none;
+}
+
+#more-title{
+  padding-left: 10px;
+  color: #648fc5;
+}
+
+#more-title i {
+    color: #648fc5;
+}
+
+#more-title span {
+  font-size: 16px;
+  margin-left: 5px;
+  color: #648fc5;
+ }
+
+
+#year{
+  font-size: 40px;
+  color: #A00308;
+  padding: 30px;
+}
+
+#publication-wrapper{
+  padding: 20px;
+  margin-left: 50px;
+
+}
+
+#title{
+  color: #161136;
+  font-weight: bold;
+}
+
+#author {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+#publisher {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
 }
