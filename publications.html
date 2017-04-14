@@ -6,10 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <script src="https://use.fontawesome.com/7ccc97b483.js"></script>
-      <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/main.css" />
-    <link rel="stylesheet" href="assets/contact.css" />
   </head>
   <body>
     <div id="page-wrapper">
@@ -28,39 +27,13 @@
           <a href="contact.html"><ul id="nav-title">Contact</ul></a>
         </nav>
       </header>
-
       <div id="background-photo">
-        <div class="welcome" id="left">Contact Us</div></br>
-        <!-- <div class="welcome 2"> Puglisi Laboratory</div> -->
+        <div class="welcome 1">Welcome to the</div></br>
+        <div class="welcome 2"> Puglisi Laboratory</div>
         <!-- <h3 id="history">Let's make history</h3> -->
       </div>
 
-      <div id="wrapper">
-      <div id="jody">
-        <img src="images/Jody.jpeg" id="jody-pic">
       </div>
-
-      <div id="information-container">
-      <div id="information">
-        <a href="https://med.stanford.edu/profiles/joseph-puglisi" target="_blank" ><h2 id="name">Joseph Puglisi</h2></a>
-        <h2 id="title">Professor, Department of Structural Biology</h2>
-        <h2 id="title">Director, Stanford Magnetic Resonance Laboratory</h2>
-        <div id="address">
-          <a href="https://www.google.com/maps/place/Fairchild+Science+Building,+299+Campus+Drive,+Palo+Alto,+CA+94304/@37.4317671,-122.177327,17z/data=!3m1!4b1!4m5!3m4!1s0x808fa4d34f2a4491:0xa0a9b7ac501678d8!8m2!3d37.4317671!4d-122.175133" target="_blank">
-          <div>Stanford University School of Medicine</br>
-          D105 Fairchild Science Building</br>
-          299 Campus Drive West</br>
-          Stanford, CA 94305-5126</div></a>
-        </br></div>
-          <div id="phone">650-498-4397 (phone)</div>
-          <div id="phone">650-723-8464 (fax)</div>
-          <div id="email"><a href="mailto:puglisi@stanford.edu">puglisi@stanford.edu</a></div>
-          <div id="profile"><a href="https://med.stanford.edu/profiles/joseph-puglisi">Profile</a></div>
-
-      </div>
-    </div>
-
-  </div>
     </div>
       <div id="designed-by">
         Design:
@@ -68,6 +41,7 @@
 					<a href="https://www.linkedin.com/in/laurenmadigan/" class="fa fa-linkedin" target="_blank"></a>
       </div>
     </div>
+
     <script>
       var el = $('.header');
         var $document = $(document);
@@ -75,11 +49,11 @@
           if ($document.scrollTop() >= 230) {
             // user scrolled 50 pixels or more;
             // do stuff
-            el.addClass('fix-search');
+            el.addClass('fix-search').slideDown();
           } else {
             el.removeClass("fix-search");
           }
         });
-      </script>
+			</script>
   </body>
 </html>

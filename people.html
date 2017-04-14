@@ -6,26 +6,113 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <script src="https://use.fontawesome.com/7ccc97b483.js"></script>
+      <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
     <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/main.css" />
+    <link rel="stylesheet" href="assets/people.css" />
   </head>
   <body>
     <div id="page-wrapper">
 
-      <header id="header">
+      <header class="header">
         <h1 id="logo"><a href="index.html">
           <div id="logo-img">
           <img src="images/Logo_of_Stanford_University.png" height="50" width="50"></div>
           <div id="puglisi">Puglisi</div>
           <div id="laboratory">Laboratory</div></a></h1>
         <nav id="nav">
-          <ul id="nav-title">Research</ul>
-          <ul id="nav-title">People</ul>
-          <ul id="nav-title">Publications</ul>
-          <ul id="nav-title">Abroad</ul>
-          <ul id="nav-title">Contact</ul>
+          <a href="research.html"><ul id="nav-title">Research</ul></a>
+          <a href="people.html"><ul id="nav-title">People</ul></a>
+          <a href="publications.html"><ul id="nav-title">Publications</ul></a>
+          <a href="abroad.html"><ul id="nav-title">Abroad</ul></a>
+          <a href="contact.html"><ul id="nav-title">Contact</ul></a>
         </nav>
       </header>
+
+      <div id="background-photo">
+        <div class="welcome" id="left">Meet the Team</div></br>
+      </div>
+
+      <div id="people-section">
+        <div id="people-layer">
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo">
+            <img src="images/lab-members/alpaca-r.jpg" width="300px" height="200px">
+          </div></div>
+          <div id="person-name">ROSSLYN GROSELY</div>
+          <div id="person-title">Post Doc</div>
+          <div id="person-description">Hi, I'm Rosslyn and this is my description. I like pugs!</div>
+          <a href="mailto:rgrosely@stanford.edu"><div id="contact">rgrosely@stanford.edu</div></a>
+          </div>
+          <div id="person">
+          <div id="photo-container">
+          <div id="person-photo"><img src="images/lab-members/kevin.jpg" width="300px" height="200px"></div></div>
+          <div id="person-name">KEVIN LARSEN</div>
+          <div id="person-title">Ph.D Student - Biophysics</div>
+          <div id="person-description">Hi, I'm Kevin and this is my description. I like Crystallography and EM and HIV Reverse Transcriptase!</div>
+          <a href="mailto:klarsen2@stanford.edu"><div id="contact">klarsen2@stanford.edu</div></a>
+          </div>
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"><img src="images/lab-members/alex.jpg" width="300" height="200"></div></div>
+          <div id="person-name">ALEX JOHNSON</div>
+          <div id="person-title">Ph.D Student - Chemical & Systems Biology</div>
+          <div id="person-description">Hi, I'm Rosslyn and this is my description. I like pugs!</div>
+          <a href="mailto:algejohn@stanford.edu"><div id="contact">algejohn@stanford.edu</div></a>
+          </div>
+        </div>
+
+        <div id="people-layer">
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"><img src="images/lab-members/lama-aaron.jpg" width="300px" height="200px"></div></div>
+          <div id="person-name">ALEXY PETROV</div>
+          <div id="person-title">Post Doc</div>
+          <div id="person-description">Hi, I'm Alexey and this is my description. I'm really smart and I love yeast!</div>
+          <a href="mailto:petrov@stanford.edu"><div id="contact">petrov@stanford.edu</div></a>
+          </div>
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"><img src="images/lab-members/lama-kevin.jpg" width="300px" height="200px"></div></div>
+          <div id="person-name">MARK CAPECE</div>
+          <div id="person-title">Post Doc</div>
+          <div id="person-description">Hi, I'm Mark and this is my description. I'm from the South and am almost graduated! #senioritis</div>
+          <a href="mailto:mcapece@stanford.edu "><div id="contact">mcapece@stanford.edu </div></a>
+          </div>
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"><img src="images/lab-members/lama-kevin.jpg" width="300px" height="200px"></div></div>
+          <div id="person-name">ROSSLYN GROSLING</div>
+          <div id="person-title">Post Doc</div>
+          <div id="person-description">Hi, I'm Rosslyn and this is my description. I like pugs!</div>
+          </div>
+        </div>
+
+        <div id="people-layer">
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"></div></div>
+          <div id="person-name"></div>
+          <div id="person-title"></div>
+          <div id="person-description"></div>
+          </div>
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"></div>
+          <div id="person-name"></div>
+          <div id="person-title"></div>
+          <div id="person-description"></div></div>
+          </div>
+          <div id="person">
+            <div id="photo-container">
+          <div id="person-photo"></div>
+          <div id="person-name"></div>
+          <div id="person-title"></div>
+          <div id="person-description"></div></div>
+          </div>
+        </div>
+      </div>
 
     </div>
       <div id="designed-by">
@@ -34,5 +121,18 @@
 					<a href="https://www.linkedin.com/in/laurenmadigan/" class="fa fa-linkedin" target="_blank"></a>
       </div>
     </div>
+    <script>
+      var el = $('.header');
+        var $document = $(document);
+        $document.scroll(function() {
+          if ($document.scrollTop() >= 230) {
+            // user scrolled 50 pixels or more;
+            // do stuff
+            el.addClass('fix-search');
+          } else {
+            el.removeClass("fix-search");
+          }
+        });
+      </script>
   </body>
 </html>

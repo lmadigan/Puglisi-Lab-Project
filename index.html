@@ -22,7 +22,7 @@
         <nav id="nav">
           <a href="research.html"><ul id="nav-title">Research</ul></a>
           <a href="people.html"><ul id="nav-title">People</ul></a>
-          <a href=""><ul id="nav-title">Publications</ul></a>
+          <a href="publications.html"><ul id="nav-title">Publications</ul></a>
           <a href="abroad.html"><ul id="nav-title">Abroad</ul></a>
           <a href="contact.html"><ul id="nav-title">Contact</ul></a>
         </nav>
@@ -53,10 +53,10 @@
           <div id="research-focus">
              <p id="focus">Our research questions focus on:</p>
              <ul id="research-list">
-               <li><a href="">HIV Reverse Transcription Initiation</a></li>
-               <li><a href="">Single Molecule Fluoresence</a></li>
-               <li><a href="">HCV Virus Iris</a></li>
-               <li><a href="">Initiation, elongation, and termination of translation</a></li>
+               <li><a href="research.html">HIV Reverse Transcription Initiation</a></li>
+               <li><a href="research.html">Single Molecule Fluoresence</a></li>
+               <li><a href="research.html">HCV Virus Iris</a></li>
+               <li><a href="research.html">Initiation, elongation, and termination of translation</a></li>
              </ul>
              </div>
 
@@ -101,7 +101,7 @@
           if ($document.scrollTop() >= 230) {
             // user scrolled 50 pixels or more;
             // do stuff
-            el.addClass('fix-search');
+            el.addClass('fix-search').slideDown();
           } else {
             el.removeClass("fix-search");
           }

@@ -12,20 +12,23 @@
   <body>
     <div id="page-wrapper">
 
-      <header id="header">
+      <header class="header">
         <h1 id="logo"><a href="index.html">
           <div id="logo-img">
           <img src="images/Logo_of_Stanford_University.png" height="50" width="50"></div>
           <div id="puglisi">Puglisi</div>
           <div id="laboratory">Laboratory</div></a></h1>
         <nav id="nav">
-          <ul id="nav-title">Research</ul>
-          <ul id="nav-title">People</ul>
-          <ul id="nav-title">Publications</ul>
-          <ul id="nav-title">Abroad</ul>
-          <ul id="nav-title">Contact</ul>
+          <a href="research.html"><ul id="nav-title">Research</ul></a>
+          <a href="people.html"><ul id="nav-title">People</ul></a>
+          <a href=""><ul id="nav-title">Publications</ul></a>
+          <a href="abroad.html"><ul id="nav-title">Abroad</ul></a>
+          <a href="contact.html"><ul id="nav-title">Contact</ul></a>
         </nav>
       </header>
+
+      <div id="">
+      </div>
 
     </div>
       <div id="designed-by">
@@ -34,5 +37,18 @@
 					<a href="https://www.linkedin.com/in/laurenmadigan/" class="fa fa-linkedin" target="_blank"></a>
       </div>
     </div>
+    <script>
+      var el = $('.header');
+        var $document = $(document);
+        $document.scroll(function() {
+          if ($document.scrollTop() >= 230) {
+            // user scrolled 50 pixels or more;
+            // do stuff
+            el.addClass('fix-search');
+          } else {
+            el.removeClass("fix-search");
+          }
+        });
+      </script>
   </body>
 </html>

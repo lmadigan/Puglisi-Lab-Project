@@ -1,13 +1,16 @@
-#left{
-  margin-left: 20%;
-}
+
 
 #jody {
   height: 370px;
-  width: 350px;
-  margin-top: -200px;
-  margin-left: 10%;
+  width: 300px;
 
+}
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px;
 }
 
 #jody-pic {
@@ -17,4 +20,75 @@
   -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
   box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+}
+
+#information-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /*margin-top: -90px;*/
+  margin-top: 30px;
+  size: 18px;
+}
+
+#name{
+  padding-bottom: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #161136;
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+}
+
+#name:hover{
+  color: #E9E6E6;
+font-size: 20px;
+  border-radius: 3px;
+}
+
+#title{
+  line-height: 1.3em;
+  font-size: 18px;
+  font-weight: 900;
+  color: #161136;
+
+}
+
+#address{
+  line-height: 1.3em;
+  padding-top: 15px;
+
+}
+
+#address div{
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.3em;
+}
+
+#address div:hover{
+  color: #161136;
+  /*font-size: 17px;*/
+}
+
+#email a{
+  color: #161136;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*text-decoration: underline; */
+  margin-bottom: 20px;
+}
+
+#phone{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#email:hover{
+  text-decoration: underline;
+}
+#profile{
+  margin-top: 10px;
+}
+#profile a{
+  padding-top: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #A00308;
 }
