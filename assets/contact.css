@@ -1,7 +1,6 @@
 
 
 #jody {
-  height: 370px;
   width: 300px;
 
 }
@@ -22,12 +21,23 @@
   box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
 }
 
+#manolia-pic{
+  margin-top: 20px;
+  height: 320px;
+  border-radius: 5px;
+  width: auto;
+  -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+}
+
+
 #information-container{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
   padding: 20px;
   /*margin-top: -90px;*/
-  margin-top: 30px;
   size: 18px;
 }
 
@@ -36,13 +46,13 @@
   font-weight: 900;
   font-size: 18px;
   color: #161136;
-    /*font-family: 'Open Sans Condensed', sans-serif;*/
+
 }
 
 #name:hover{
   color: #E9E6E6;
-font-size: 20px;
-  border-radius: 3px;
+/*font-size: 20px;*/
+  /*border-radius: 3px;*/
 }
 
 #title{
@@ -91,4 +101,22 @@ font-size: 20px;
   font-size: 14px;
   text-decoration: underline;
   color: #A00308;
+}
+
+.betta{
+  margin-top: 85px;
+}
+
+.one{
+  padding-top: 123px;
+}
+
+#phone1 {
+  margin-top: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#phone2 {
+  margin-bottom: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
