@@ -158,6 +158,7 @@
   font-size: 25px;
   color: #333333;
   margin-bottom: 15px;
+  color: #B90504;
 }
 
 #summary {
@@ -184,6 +185,7 @@
   letter-spacing: 0.3px;
   font-weight: bolder;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
 #research-list{
@@ -264,7 +266,7 @@
 
 .fix-search {
   position: fixed;
-  top:0;
+  /*top:0;*/
   left:0;
   right:0;
   margin:0;
@@ -277,8 +279,23 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
 
   border-bottom: white;
   z-index: 5;
-  transition: all 1s ease;
+  animation: mymove 0.4s linear;
 }
+
+@-webkit-keyframes mymove {
+  /*from {top: -71px}
+  to {top: 0}*/
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes mymove {
+  /*from {top: -71px}
+  to {top: 0}*/
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
 
 
 /*yellow: #ff9100*/

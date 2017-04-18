@@ -22,9 +22,9 @@
   border-radius: 5px;
   height: 370px;
   width: auto;
-  -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
-  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);*/
 }
 
 #manolia-pic{
