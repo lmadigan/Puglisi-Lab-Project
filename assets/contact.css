@@ -1,15 +1,21 @@
 
 
-#jody {
-  width: 300px;
-
-}
-
 #wrapper{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   padding: 30px;
+}
+
+#person{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#person img{
+  margin-right: 30px;
 }
 
 #jody-pic {
@@ -31,14 +37,25 @@
   box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
 }
 
-
+#betta-pic{
+  margin-top: 20px;
+  width: 248px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+}
+/*
 #information-container{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   padding: 20px;
-  /*margin-top: -90px;*/
   size: 18px;
+}*/
+
+#information {
+  width: 370px;
 }
 
 #name{
@@ -51,8 +68,6 @@
 
 #name:hover{
   color: #E9E6E6;
-/*font-size: 20px;*/
-  /*border-radius: 3px;*/
 }
 
 #title{
@@ -76,7 +91,6 @@
 
 #address div:hover{
   color: #161136;
-  /*font-size: 17px;*/
 }
 
 #email a{
@@ -104,11 +118,11 @@
 }
 
 .betta{
-  margin-top: 85px;
+  margin-top: 20px;
 }
 
 .one{
-  padding-top: 123px;
+  margin-top: 20px;
 }
 
 #phone1 {

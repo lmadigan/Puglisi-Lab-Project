@@ -1,0 +1,395 @@
+#erice-background-photo {
+  background-image: url('../images/erice.jpg');
+  background-color: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+/*#outer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}*/
+
+.abroad{
+    background: #f3f6fa;
+
+}
+
+.welcome {
+  text-align: center;
+  font-size: 40px;
+  color: #161136;
+}
+
+.welcome a{
+  text-align: center;
+  font-size: 40px;
+  color: #161136;
+}
+
+.welcome a:hover{
+  color: #A00308;
+}
+
+
+.welcome.erice{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+
+#initial-container{
+  height: 512px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#purpose{
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  line-height: 1.3em;
+  width: 450px;
+  color: #333333;
+  padding-top: 20px;
+  /*padding-bottom: 20px;*/
+  /*height: 370px;*/
+  padding-left: 30px;
+  padding-right: 30px;
+  background: white;
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+#purpose-title{
+  display: block;
+  font-size: 25px;
+  color: #A00308;
+  letter-spacing: 0.3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 550px;
+  height: 350px;
+
+  position: relative;
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#outer-container{
+  height: 100%;
+  /*width: 60%;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#button-container{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#button{
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #333333;
+  color: #333333;
+  margin: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 20px;
+  text-align: center;
+}
+
+#button a{
+  color: #333333;
+}
+
+#button:hover{
+  cursor: pointer;
+  border: 1px solid #979494;
+  color: #979494;
+}
+
+#button a:hover{
+  cursor: pointer;
+  color: #979494;
+}
+
+#information-outer-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#information-container{
+  width: 800px;
+  background: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+#info-section{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#info-title{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #333333;
+}
+
+#line-spacing{
+  margin-top: -18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#line1{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 50%;
+}
+
+#line2{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 45px;
+  margin-right: 65px;
+  width: 50%;
+}
+
+#line3{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 65px;
+  margin-right: 45px;
+  width: 50%;
+}
+
+
+#line4{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 45px;
+  margin-right: 85px;
+  width: 50%;
+}
+
+#line5{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 85px;
+  margin-right: 45px;
+  width: 50%;
+}
+
+
+#line6{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 45px;
+  margin-right: 155px;
+  width: 50%;
+}
+
+#line7{
+  height: 4px;
+  border-top: 1px #979494 solid;
+  border-bottom: 1px #979494 solid;
+  margin-left: 155px;
+  margin-right: 45px;
+  width: 50%;
+}
+
+#info {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#info div{
+  color: #333333;
+}
+
+#title{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 35px;
+}
+
+#fifteen{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 22px;
+}
+
+#biophysics{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#mini-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#sub-info{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+#mini-title a {
+    color: #333333;
+}
+
+#sub-info a {
+  color: #333333;
+}
+
+#sub-info a:hover{
+  color: #979494;
+}
+
+#school:hover{
+  color: #979494;
+}
+
+#writing{
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+}
+
+.first{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 964px) {
+  #initial-container {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+}
