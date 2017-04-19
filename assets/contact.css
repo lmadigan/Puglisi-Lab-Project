@@ -32,18 +32,18 @@
   height: 320px;
   border-radius: 5px;
   width: auto;
-  -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
-  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);*/
 }
 
 #betta-pic{
   margin-top: 20px;
   width: 248px;
   border-radius: 5px;
-  -webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
-  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 13px -1px rgba(0,0,0,0.75);*/
 }
 /*
 #information-container{
