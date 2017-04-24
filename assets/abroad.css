@@ -23,24 +23,24 @@
 
 }
 
-.welcome {
+.welcome-erice {
   text-align: center;
   font-size: 40px;
   color: #161136;
 }
 
-.welcome a{
+.welcome-erice a{
   text-align: center;
   font-size: 40px;
   color: #161136;
 }
 
-.welcome a:hover{
+.welcome-erice a:hover{
   color: #A00308;
 }
 
 
-.welcome.erice{
+.welcome-erice.erice{
   font-size: 30px;
   margin-top: 10px;
 }
@@ -324,7 +324,7 @@
   color: #333333;
 }
 
-#title{
+#school-title{
   padding-top: 15px;
   text-align: center;
   font-size: 35px;
