@@ -255,6 +255,8 @@ input[type="submit"] {
 
 #research-list li{
   margin-left: 30px;
+  margin-bottom: 7px;
+  max-width: 500px;
   color: #333333;
   line-height: 1.6em;
   letter-spacing: .3px;
@@ -262,6 +264,7 @@ input[type="submit"] {
 
 #research-list li a{
     color: #333333;
+    /*margin-left: 10px;*/
 }
 
 #research-list li a:hover{
