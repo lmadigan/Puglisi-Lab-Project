@@ -1128,3 +1128,39 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
     cursor: pointer;
     color: grey;
   }
+
+#research-wrapper{
+  background: #f3f6fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#research-item{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 330px;
+}
+
+#research-figure {
+  width: 300px;
+}
+
+#research-writing{
+  background: white;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+
+#research-title{
+  font-size: 20px;
+  color: #161136;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
