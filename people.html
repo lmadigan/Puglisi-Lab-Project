@@ -195,6 +195,9 @@
         var description = $(".shorten");
         description.each(function(i){
             let len = $(this).text().length;
+            if (len < 180) {
+              $(this).next("div.show-more").css("display", "none");
+            }
             if(len>180)
             {
               let longText = $(this).text();
