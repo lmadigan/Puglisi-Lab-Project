@@ -1108,9 +1108,35 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
 }
 
 #years-list{
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*flex-direction: column;*/
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #333333;
+  font-size: 20px;
+}
+
+#first-half a,
+#second-half a {
+  cursor: pointer;
+  color: #333333;
+  padding-left: 12px;
+}
+
+#first-half a:hover,
+#second-half a:hover {
+  color: #757272;
+  /*text-decoration: underline;*/
+}
+
+#first-half {
+  text-wrap: normal;
+  display: flex;
+  justify-content: center;
+}
+#second-half {
+  display: flex;
+  justify-content: center;
 }
 
 .hidden {
