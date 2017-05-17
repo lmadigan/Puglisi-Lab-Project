@@ -20,13 +20,22 @@
           <img src="images/Logo_of_Stanford_University.png" height="50" width="50"></div>
           <div id="puglisi">Puglisi</div>
           <div id="laboratory">Lab</div></a></h1>
-        <nav id="nav">
+          <div id="bars"><i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <div class="bars-nav" class="hidden">
+              <a href="research.html"><ul id="nav-title">Research</ul></a>
+              <a href="people.html"><ul id="nav-title">People</ul></a>
+              <a href="publications.html"><ul id="nav-title">Publications</ul></a>
+              <a href="abroad.html"><ul id="nav-title">Abroad</ul></a>
+              <a href="contact.html"><ul id="nav-title">Contact</ul></a>
+            </div></div>
+
+        <div class="nav">
           <a href="research.html"><ul id="nav-title">Research</ul></a>
           <a href="people.html"><ul id="nav-title">People</ul></a>
           <a href="publications.html"><ul id="nav-title">Publications</ul></a>
           <a href="abroad.html"><ul id="nav-title">Abroad</ul></a>
           <a href="contact.html"><ul id="nav-title">Contact</ul></a>
-        </nav>
+        </div>
       </header>
 
       <div id="background-photo">
@@ -2733,6 +2742,21 @@ The interaction of wild-type and mutant yeast tRNA(Asp) transcripts with yeast a
               $(this).find("i#triangle").toggleClass("rotated");
           });
 
+
+      });
+
+
+      var bars = $('#bars');
+      bars.click(function() {
+
+        console.log($(this).children().eq(1));
+        let menu = $(this).children().eq(1);
+
+        if ($(menu).css('display') == 'none') {
+          $(menu).css('display', 'block');
+        } else {
+          $(menu).css('display', 'none');
+        }
 
       });
 			</script>

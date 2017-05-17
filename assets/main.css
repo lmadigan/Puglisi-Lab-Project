@@ -107,12 +107,51 @@ input[type="submit"] {
   /*font-stretch: condensed;*/
 }
 
+#bars {
+  padding-right: 40px;
+  display: none;
+  position: relative;
+}
 
-#nav {
+.bars-nav{
+  position: absolute;
+  top: 40px;
+  left: -113px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px;
+  display: none;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.bars-nav a {
+  margin-bottom: 5px;
+}
+
+.hidden{
+  display: hidden;
+}
+
+
+.nav {
   margin-right: 25px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+
+@media screen and (max-width: 900px){
+  .nav {
+        display: none !important;
+    }
+
+  #bars {
+    display: block !important;
+  }
 }
 
 #nav-title {
