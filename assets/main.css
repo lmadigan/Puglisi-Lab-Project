@@ -397,6 +397,31 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
   to {opacity: 1}
 }
 
+@media screen and (max-width: 620px) {
+  #info-section {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #right-side {
+    width: 90%;
+  }
+
+  #left-side {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #right-contents {
+    margin-right: 0px;
+  }
+
+  #summary {
+    font-size: 14px;
+  }
+}
 
 /*yellow: #ff9100*/
 
@@ -1020,32 +1045,24 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
   cursor: pointer;
 }
 
+#contact{
+  font-size: 14px;
+  padding-top: 10px;
+  color: #A00308;
+}
 
-
-
-@media screen and (max-width: 400px) {
-  #person1-photo{
-    width: 198px;
-    height: 132px;
-  }
-
-  #people-layer{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .show-more {
-    display: flex;
-    justify-content: center;
-  }
-
-  .show-less{
-    justify-content: center;
-
-  }
+#contact:hover{
+  cursor: pointer;
 }
 
 
+
+@media screen and (max-width: 1200px) {
+  #people-layer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 
 @media screen and ( max-width: 1000px) {
   #people-layer {
@@ -1070,6 +1087,7 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
     width: 100%;
     display: flex;
     justify-content: center;
+
   }
 
   #person1-title {
@@ -1098,23 +1116,53 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
   }
 }
 
-#contact{
-  font-size: 14px;
-  padding-top: 10px;
-  color: #A00308;
-}
 
-#contact:hover{
-  cursor: pointer;
-}
 
 @media screen and ( max-width: 700px) {
   #person-photo {
     width: 300px;
     height: 200px;
   }
+}
 
 
+@media screen and (max-width: 450px) {
+  #person1-photo{
+    width: 275px;
+    height: 180px;
+  }
+
+  #people-layer{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #photo-container {
+    padding: 0px;
+  }
+
+  .show-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  .show-less{
+    justify-content: center;
+
+  }
+
+  #bars {
+    padding-right: 20px;
+  }
+
+  .welcome {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #person1-description {
+    font-size: 14px;
+  }
 }
 /*publications*/
 
