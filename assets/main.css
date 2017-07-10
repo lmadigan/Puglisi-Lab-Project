@@ -235,9 +235,10 @@ input[type="submit"] {
 }
 
 #rna-image img {
-  height: 250px;
+  height: 300px;
   width: auto;
   display: inline-block;
+  padding-bottom: 10px;
 }
 
 #right-side h3{
