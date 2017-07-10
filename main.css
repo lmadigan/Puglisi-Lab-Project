@@ -168,7 +168,7 @@ input[type="submit"] {
 }
 
 #background-photo{
-  background-image: url('../images/Stanford_Campus.jpg');
+  background-image: url('Stanford_Campus.jpg');
   background-color: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
@@ -429,7 +429,7 @@ box-shadow: 0px 0px 2px 0px rgba(133,133,133,1);
 /*every other webpage*/
 
 #erice-background-photo {
-  background-image: url('../images/erice.jpg');
+  background-image: url('erice.jpg');
   background-color: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
